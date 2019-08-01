@@ -1,0 +1,7 @@
+--- # install AWX on Centos 7
+- name: install AWX
+  hosts: all
+  tasks:
+  - name: EPEL repo install
+    yum:
+      - :q
